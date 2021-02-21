@@ -1,0 +1,99 @@
+.navbar-nav.ml-auto{
+    font-size: 20px;
+}
+
+#name{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+
+}
+
+.App {
+    height: 100vh !important;
+    /* position:fixed; */
+    overflow: scroll !important;
+  
+}
+    /* html {
+        margin: 0px;
+        padding: 0px;
+        min-height: 100%;
+        height: 100%;
+        background-color: #edf2fa;
+        
+    }
+    */
+  
+  #footer {
+    height: 50px; 
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+   
+    
+    
+  }
+  
+  #footer-content {
+    border: none;
+    padding: 10px;
+          
+    
+  }
+  /* Styling for footer links */
+  #github{
+      padding-top: 12px;
+      margin-right: 10px;
+      padding-bottom: 20px;
+      font-size: 20px;
+  }
+  #linkedin{
+      padding-top: 12px;
+      padding-bottom: 20px;
+      font-size: 20px;
+      
+  }
+  #mail{
+      padding-top: 12px;
+      margin-right: 10px;
+      font-size: 20px;
+  
+  }
+ 
+  .about {
+    color: black;
+  }
+  .separator {
+    color: chocolate;
+  }
+
+  .d-block {
+    width: 50%;
+    margin: auto;
+  }
+  .carousel-control-prev, .carousel-control-next {
+    filter: invert(1);
+  }
+
+  /* .full-page-background-img {
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("images/bg-masthead.jpg");
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: fixed !important;
+    min-height: 100vh !important;
+    overflow: hidden;
+    
+    
+  } */
+  .contact-text {
+    color: black;
+    font-size: .8em;
+  }
+  
+  
+  
+  @media screen and (max-width: 600px) {
+    #footer {
+      position: relative;
+    }
+  }

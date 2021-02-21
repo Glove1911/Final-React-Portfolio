@@ -18,7 +18,7 @@ My updated portfolio built with React.js, Node.js, and Bootstrap.
 ### View the Project Live
 
 If you would like to view this project live, use the link below
-https://github.com/Glove1911/Final-React-Portfolio
+https://final-portfolio-project.herokuapp.com/
 
 
   

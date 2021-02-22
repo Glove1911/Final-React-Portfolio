@@ -21,6 +21,10 @@ const styles = {
     hr: {
         width: "100%",
         color: "black"
+    },
+
+    portfolio: {
+        color: "white"
     }
 
 }
@@ -31,7 +35,7 @@ function Portfolio() {
             <div className="container">
                 <div className="row h-100 align-items-center justify-content-center text-center">
 
-                    <div className="h2 px-3 mt-4 about">Portfolio
+                    <div className="h2 px-3 mt-4 about" style= {styles.portfolio}>Portfolio
                     <hr style={styles.hr}></hr>
                         <div id="carouselExampleIndicators" className="carousel slide align-self-center" data-ride="carousel">
 
